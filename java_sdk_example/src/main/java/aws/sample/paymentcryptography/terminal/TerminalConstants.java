@@ -1,12 +1,12 @@
-package aws.sample.paymentcryptography;
+package aws.sample.paymentcryptography.terminal;
+
+import aws.sample.paymentcryptography.CommonConstants;
 
 public interface TerminalConstants extends CommonConstants{
     
     public final String PIN_MASK = "00000000000000FF00000000000000FF";
 
-    // Pre-calculated this outside the code for brevity. KSN FFFF9876543210E00001 was used to derive this key
-    public final String DUKPT_CURRENT_KEY = "***REMOVED***";
-    
+    /* Clear text key */
     public final String MAC_KEY_PLAIN_TEXT = "***REMOVED***";
 
     // Clear text PEK key.
